@@ -158,3 +158,56 @@ header ul li a {
     margin-left: 500px;
 
 }
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9faf8;
+    height: 300px;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 40px 120px 40px 120px;
+    gap: 150px;
+    border-radius: 8px;
+
+}
+
+.action-section .text h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.action-section .text p {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.action-section button {
+    border: solid 2px #f9faf8;
+    padding: 8px 30px 8px 30px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1f2937;
+}
+
+footer p {
+    font-size: 18px;
+    color: #f9faf8;
+}
